@@ -36,6 +36,13 @@ $ make run
 </div>
 
 
+## Resources
+
+- [Rust](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/rust/) section of my Dev Cheatsheets - for a guide to CLI commands.
+- [Rust](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Rust/README.md) in Learn to Code.
+
+
+
 ## License
 
 Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
