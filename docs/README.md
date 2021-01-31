@@ -1,10 +1,10 @@
 ---
 permalink: /
 ---
-# **Generic Project Template docs**
+# **Rust Project Template docs**
 > Starter project for any programming language - including docs and CI
 
-[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/generic-project-template?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/generic-project-template/releases/)
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/rust-project-template?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/rust-project-template/releases/)
 
 - [Installation](installation.md)
 - [Usage](usage.md)
@@ -13,4 +13,4 @@ permalink: /
 
 View source:
 
-[![MichaelCurrin - generic-project-template](https://img.shields.io/static/v1?label=MichaelCurrin&message=generic-project-template&color=blue&logo=github)](https://github.com/MichaelCurrin/generic-project-template)
+[![MichaelCurrin - rust-project-template](https://img.shields.io/static/v1?label=MichaelCurrin&message=rust-project-template&color=blue&logo=github)](https://github.com/MichaelCurrin/rust-project-template)
