@@ -31,8 +31,6 @@ You can skip this step - crates will be installed when they need to be run.
 $ make install
 ```
 
-Warning - this runs the `cargo build` step which actually builds the application. So you might have issues installing dependencies if the application is not in a working state.
-
 You may continue to the [Usage](usage.md) doc or continue here.
 
 
