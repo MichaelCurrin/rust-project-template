@@ -17,23 +17,17 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Set up Python / Node / Ruby / Go / Rust / etc.
-        run: echo 'Setup environmen here'
-
-      - name: Install dependencies
-        run: make install
-
-      - name: Install dev dependencies
-        run: make install-dev
-
-      - name: Check formatting
-        run: make fmt-check
-
-      - name: Lint
-        run: make lint-check
-
-      - name: Run unit tests
-        run: make test
-
-      - name: Build
-        run: make build
+      - name: Set up Rust
+        uses: rust-lang/simpleinfra/github-actions/simple-ci@master
+        with:
+          check_fmt: true
+      # - name: Install dependencies
+      #   run: make install
+      # - name: Check formatting
+      #   run: make fmt-check
+      # - name: Lint
+      #   run: make lint
+      # - name: Run unit tests
+      #   run: make test
+      # - name: Build
+      #   run: make build
