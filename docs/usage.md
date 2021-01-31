@@ -24,11 +24,13 @@ $ make fmt-fix
 ## Lint
 
 ```sh
-$ make lint-fix
+$ make lint
 ```
 
 
 ## Run unit tests
+
+_TODO: Add tests as there are none_.
 
 ```sh
 $ make test
@@ -41,10 +43,4 @@ Run application.
 
 ```sh
 $ make run
-```
-
-Start dev server.
-
-```sh
-$ make serve
 ```
