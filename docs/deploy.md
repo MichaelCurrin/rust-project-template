@@ -24,11 +24,11 @@ This project uses GitHub Actions for Continuous Integration / Continuous Deploym
 
 See the workflow on GitHub:
 
-- [main.yml](https://github.com/MichaelCurrin/generic-project-template/blob/main/.github/workflows/main.yml) file.
+- [main.yml](https://github.com/MichaelCurrin/rust-project-template/blob/main/.github/workflows/main.yml) file.
 
 See workflow runs here:
 
-- [Actions](https://github.com/MichaelCurrin/generic-project-template/actions) tab.
+- [Actions](https://github.com/MichaelCurrin/rust-project-template/actions) tab.
 
 To learn about how to build and maintain a workflow, see my [Workflow Builder](https://michaelcurrin.github.io/workflow-builder/) project.
 
