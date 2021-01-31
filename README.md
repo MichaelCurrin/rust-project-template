@@ -27,6 +27,12 @@ _TODO: Add just a few lines to show how to use your application._
 ```sh
 $ make run
 ```
+```
+134
+Heads!
+x is: 0.8058828276021345
+Hello, World!
+```
 
 
 ## Documentation
