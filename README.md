@@ -1,4 +1,4 @@
-# Rust Project Template
+# Rust Project Template :crab:
 > Starter template for a new Rust project
 
 <!-- Badges generated with https://michaelcurrin.github.io/badge-generator/ -->
