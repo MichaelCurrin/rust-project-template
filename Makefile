@@ -1,6 +1,6 @@
 default: install
 
-all: hooks install fmt lint test check
+all: hooks install fix lint test check
 
 
 h help:
@@ -15,11 +15,13 @@ install:
 	cargo update
 
 
-fmt:
+fmt-fix:
 	cargo fmt
 
 lint:
 	cargo clippy
+
+fix: fmt-fix lint
 
 test:
 	cargo test
