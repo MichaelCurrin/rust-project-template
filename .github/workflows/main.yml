@@ -1,4 +1,4 @@
-name: Placeholder CI
+name: Rust CI
 
 on:
   push:
