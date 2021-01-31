@@ -4,8 +4,7 @@ root = true
 indent_style = space
 indent_size = 2
 
-# TODO: Use [*.{html,md} or [*.{py,md}] if relevant.
-[*.md}]
+[*.{md,rs}]
 indent_size = 4
 
 [Makefile]
