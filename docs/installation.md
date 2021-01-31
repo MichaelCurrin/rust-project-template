@@ -7,11 +7,8 @@ _TODO: Delete any sections not needed._
 
 _TODO: Add content here_.
 
-- [Make](#)
-- [Postgres](#)
-- [Node](#)
-- [Python](#)
-- etc.
+- [Make](https://www.gnu.org/software/make/) - optional dependency for convenience running commands. Standard on macOS and Linux.
+- [Rust](https://www.rust-lang.org/)
 
 
 ## Install hooks
@@ -23,26 +20,20 @@ $ make hooks
 
 ## Install system dependencies
 
-_TODO: Add content here around configuration and virtual environments._
+Install Rust - see the [install](https://www.rust-lang.org/tools/install) page in the docs.
 
 
 ## Install project dependencies
 
-_TODO: Add content here_.
-
+You can skip this step - crates will be installed when they need to be run.
 ```sh
 $ make install
 ```
 
 You may continue to the [Usage](usage.md) doc or continue here.
 
-## Install dev dependencies
 
-```sh
-$ make install-dev
-```
-
-### Upgrade dependencies
+## Upgrade dependencies
 
 ```sh
 $ make upgrade
