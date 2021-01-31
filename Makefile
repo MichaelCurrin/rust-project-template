@@ -1,4 +1,4 @@
-default: install install-dev
+default: install
 
 all: hooks install fmt lint test check
 
