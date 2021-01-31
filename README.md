@@ -36,7 +36,7 @@ Hello, World!
 
 <div align="center">
 
-[![View - Documentation](https://img.shields.io/badge/View-Documentation-blue?style=for-the-badge)](https://michaelcurrin.github.io/rust-project-template/)
+[![View - Online docs](https://img.shields.io/badge/View-Online_docs-blue?style=for-the-badge)](https://michaelcurrin.github.io/rust-project-template/)
 
 </div>
 
