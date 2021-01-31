@@ -2,7 +2,7 @@
 permalink: /
 ---
 # **Rust Project Template docs**
-> Starter project for any programming language - including docs and CI
+> Starter template for a new Rust project
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/rust-project-template?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/rust-project-template/releases/)
 
