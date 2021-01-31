@@ -1,6 +1,6 @@
 default: install
 
-all: hooks install fix lint test check
+all: hooks install fix lint test
 
 
 h help:
@@ -12,7 +12,7 @@ hooks:
 	cd .git/hooks && ln -s -f ../../hooks/pre-push pre-push
 
 install:
-	cargo build
+	cargo check
 
 update:
 	cargo update
