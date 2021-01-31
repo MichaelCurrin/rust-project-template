@@ -1,6 +1,6 @@
 default: install install-dev
 
-all: hooks install install-dev fmt-check lint-check test build
+all: hooks install fmt lint test check
 
 
 h help:
@@ -12,40 +12,31 @@ hooks:
 	cd .git/hooks && ln -s -f ../../hooks/pre-push pre-push
 
 install:
-	@echo "TODO: Add your core package install step"
-install-dev:
-	@echo "TODO: Add your dev packages install step"
-
-upgrade:
-	@echo "TODO: Add your package and dev packages upgrade step"
+	cargo update
 
 
-fmt-fix:
-	@echo "TODO: Add format fix step"
-fmt-check:
-	@echo "TODO: Add format check step"
+fmt:
+	cargo fmt
 
-lint-fix:
-	@echo "TODO: Add lint fix step"
-lint-check:
-	@echo "TODO: Add lint check step"
-
-f fix: fmt-fix lint-fix
-
+lint:
+	cargo clippy
 
 test:
-	@echo "TODO: Add unit tests step"
+	cargo test
 
 
 run:
-	@echo "TODO: Add run step"
+	cargo run
 
 
-s serve:
-	@echo "TODO: Add dev server step"
-
+check:
+	cargo check
 
 build:
-	@echo "TODO: Add production build step"
-	mkdir -p build
-	@echo 'Production-ready app' > build/app
+	cargo build
+
+build-prod:
+	cargo build --release
+
+clean:
+	rm -rf target
