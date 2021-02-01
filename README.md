@@ -1,4 +1,4 @@
-# Rust Project Template <img src="https://rustacean.net/assets/rustacean-orig-noshadow.svg" alt="https://rustacean.net/assets/rustacean-orig-noshadow.svg" width="50" />
+# Rust Project Template <a href="https://rustacean.net/"><img src="https://rustacean.net/assets/rustacean-orig-noshadow.svg" alt="https://rustacean.net/assets/rustacean-orig-noshadow.svg" width="50" /></a>
 > Starter template for a new Rust project
 
 <!-- Badges generated with https://michaelcurrin.github.io/badge-generator/ -->
