@@ -1,8 +1,9 @@
 # Rust Project Template <a href="https://rustacean.net/"><img src="https://rustacean.net/assets/rustacean-orig-noshadow.svg" alt="https://rustacean.net/assets/rustacean-orig-noshadow.svg" width="50" /></a>
-> Starter template for a new Rust project
+> Starter template for a new Rust project - including docs and GH Actions CI
 
 <!-- Badges generated with https://michaelcurrin.github.io/badge-generator/ -->
-[![Rust CI](https://github.com/MichaelCurrin/rust-project-template/workflows/Rust%20CI/badge.svg)](https://github.com/MichaelCurrin/rust-project-template/actions?query=workflow%3A%22Rust+CI%22)
+
+[![Rust CI](https://github.com/MichaelCurrin/rust-project-template/workflows/Rust%20CI/badge.svg)](https://github.com/MichaelCurrin/rust-project-template/actions?query=workflow:"Rust+CI")
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/rust-project-template?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/rust-project-template/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
