@@ -18,18 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Setup Rust 🦀
+      - name: Set up Rust 🦀
         uses: rust-lang/simpleinfra/github-actions/simple-ci@master
         with:
           check_fmt: true
-      # TODO: Enable steps but compare with the action above and see what makes sense to do where.  
-      # - name: Install dependencies
-      #   run: make install
-      # - name: Check formatting
-      #   run: make fmt-check
-      # - name: Lint
-      #   run: make lint
-      # - name: Run unit tests
-      #   run: make test
-      # - name: Build
-      #   run: make build
