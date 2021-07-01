@@ -22,6 +22,8 @@ $ make all
 
 This project uses GitHub Actions for Continuous Integration / Continuous Deployment.
 
+This will build, test and check the formatting of your project.
+
 See the workflow on GitHub:
 
 - [main.yml](https://github.com/MichaelCurrin/rust-project-template/blob/main/.github/workflows/main.yml) file.
