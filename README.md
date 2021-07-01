@@ -3,7 +3,7 @@
 
 <!-- Badges generated with https://michaelcurrin.github.io/badge-generator/ -->
 
-[![Rust CI](https://github.com/MichaelCurrin/rust-project-template/workflows/Rust%20CI/badge.svg)](https://github.com/MichaelCurrin/rust-project-template/actions?query=workflow:"Rust+CI")
+[![Rust CI](https://github.com/MichaelCurrin/rust-project-template/workflows/Rust%20CI/badge.svg)](https://github.com/MichaelCurrin/rust-project-template/actions/workflows/main.yml?query=workflow:"Rust+CI")
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/rust-project-template?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/rust-project-template/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
