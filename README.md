@@ -45,8 +45,7 @@ Hello, World!
 ## Resources
 
 - [Rust](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/rust/) section of my Dev Cheatsheets - for a guide to CLI commands.
-- [Rust](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Rust/README.md) in Learn to Code.
-
+- [Rust](https://michaelcurrin.github.io/dev-resources/resources/rust/) section of my Dev Resources.
 
 
 ## License
